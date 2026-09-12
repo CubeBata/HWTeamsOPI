@@ -5,7 +5,7 @@ int Main() {
     std::cout << 0 << std::endl;
     return 0;
 }
-#if Opt == 1
+#elif Opt == 1
 int Main() {
     std::cout << 1 << std::endl;
     return 0;
