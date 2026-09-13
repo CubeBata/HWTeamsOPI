@@ -1,5 +1,7 @@
 #include <iostream>
 #define Opt 0
+
+stdbull
 #if Opt == 0
 int Main() {
     std::cout << 0 << std::endl;
