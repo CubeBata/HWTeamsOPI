@@ -1,7 +1,6 @@
 #include <iostream>
 #define Opt 0
 
-stdbull
 #if Opt == 0
 int Main() {
     std::cout << 0 << std::endl;
@@ -12,9 +11,15 @@ int Main() {
     std::cout << 1 << std::endl;
     return 0;
 }
+#else
+int Main() {
+    std::cout << "Unknown Opt value" << std::endl;
+    return 1;
+}
 #endif
+
 int main()
 {
-    return  Main();
+    return Main();
 }
-//Test pull request
+// Test pull request
